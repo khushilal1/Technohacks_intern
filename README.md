@@ -1,6 +1,9 @@
 # Technohacks_intern
 This repository contain the project in the intern.
 
+
+
+
 Email/SMS Spam Detection System
 
 Overview
@@ -42,6 +45,9 @@ https://github.com/khushilal1/Technohacks_intern/blob/main/sms_spam_classifier/s
 models/:https://github.com/khushilal1/Technohacks_intern/blob/main/sms_spam_classifier/model.pkl
 
 
+
+
+
 Dependencies
 Python 3.6+
 Streamlit
@@ -50,16 +56,6 @@ Scikit-learn
 NLTK (Natural Language Toolkit)
 Matplotlib
 Seaborn
-
-Contributing
-Contributions to this project are welcome. If you have any suggestions or improvements, please create an issue or submit a pull request.
-
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-Acknowledgments
-The project is inspired by the need for spam detection in text messages and emails.
-We thank the open-source community for providing essential tools and libraries used in this project.
 
 
 
