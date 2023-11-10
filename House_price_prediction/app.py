@@ -9,10 +9,10 @@ model = pickle.load(open('model.pkl', 'rb'))
 data_df=pickle.load(open("data.pkl",'rb'))
 # Define the columns for user input
 
-# columns=['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'tenure',
-#        'PhoneService', 'MultipleLines', 'InternetService', 'OnlineSecurity',
-#        'OnlineBackup', 'DeviceProtection', 'TechSupport', 'Contract',
-#        'PaperlessBilling', 'PaymentMethod', 'MonthlyCharges']
+columns=['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'tenure',
+       'PhoneService', 'MultipleLines', 'InternetService', 'OnlineSecurity',
+       'OnlineBackup', 'DeviceProtection', 'TechSupport', 'Contract',
+       'PaperlessBilling', 'PaymentMethod', 'MonthlyCharges']
 
 
 # Create a function to preprocess user input make predictions
@@ -169,7 +169,7 @@ def main():
     
  
     
-    contract = st.selectbox("Contract", data_df['Contract'].unique())
+
     st.write("0: Month-to-month, 1: One year, 2: Two year")
     if contract=='Month-to-month':
             contract=0
